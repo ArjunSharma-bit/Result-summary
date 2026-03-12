@@ -29,7 +29,7 @@
 </head>
 
 <body>
-  <main class="results-summary">
+  <main class="result-summary">
     <section class="result-box">
       <h1 class="title">Your Result</h1>
       <div class="score-display">
@@ -41,39 +41,47 @@
       <p class="result-desc">You scored higher than 65% of the people who have taken these tests.</p>
 
     </section>
-    <section class="summary">
+    <section class="summary-box">
       <h2 class="summary-title">Summary</h2>
       <ul class="summary-list">
         <li class="summary-item reaction">
-          <img src="assets/images/icon-reaction.svg" alt="Reaction icon">
-          <p>Reaction</p>
-          <p class="score"> 80 / 100</p>
+          <div class="item-left-side">
+            <img src="assets/images/icon-reaction.svg" alt="Reaction icon">
+            <span>Reaction</span>
+          </div>
+          <p class="score"><strong>80</strong><span class="score-total-text"> / 100</span></p>
         </li>
         <li class="summary-item memory">
-          <img src="assets/images/icon-memory.svg" alt="Memory icon">
-          <p>Memory</p>
-          <p class="score"> 92 / 100</p>
+          <div class="item-left-side">
+            <img src="assets/images/icon-memory.svg" alt="Memory icon">
+            <span>Memory</span>
+          </div>
+          <p class="score"> <strong>92</strong><span class="score-total-text"> / 100</span></p>
         </li>
         <li class="summary-item verbal">
-          <img src="assets/images/icon-verbal.svg" alt="Verbal icon">
-          <p>Verbal</p>
-          <p class="score"> 61 / 100</p>
+          <div class="item-left-side">
+            <img src="assets/images/icon-verbal.svg" alt="Verbal icon">
+            <p>Verbal</p>
+          </div>
+          <p class="score"><strong>61</strong><span class="score-total-text"> / 100</span></p>
         </li>
         <li class="summary-item visual">
-          <img src="assets/images/icon-visual.svg" alt="Visual icon">
-          <p>Visual</p>
-          <p class="score"> 73 / 100</p>
+          <div class="item-left-side">
+            <img src="assets/images/icon-visual.svg" alt="Visual icon">
+            <p>Visual</p>
+          </div>
+          <p class="score"><strong>73</strong><span class="score-total-text"> / 100</span></p>
         </li>
       </ul>
-
+      <button class="continue">Continue</button>
     </section>
 
   </main>
-
+  <!-- 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Arjun</a>.
-  </div>
+  </div> -->
 </body>
 
 </html>
