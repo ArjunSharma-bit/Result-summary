@@ -9,15 +9,13 @@ body {
     background-color: hsl(221, 100%, 96%);
     min-height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .result-summary {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 375px;
+    min-width: 375px;
     background-color: white;
 
 }
@@ -163,6 +161,11 @@ body {
 
 
 @media (min-width: 700px) {
+    body {
+        align-items: center;
+        justify-content: center;
+    }
+
     .result-summary {
         flex-direction: row;
         max-width: 736px;
