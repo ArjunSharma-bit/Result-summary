@@ -2,7 +2,10 @@
 *.sketch
 *.fig
 *.xd
-
+CLAUDE.md
+AGENTS.md
+/design
+style-guide.md
 # Dependencies
 /node_modules
 /.pnp
